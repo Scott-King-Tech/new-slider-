@@ -10,9 +10,10 @@
 <body>
     <h1>VOITURE DE L'OCCASION</h1>
     <div id="slider">
-        <img src="./image/voiture1.png" alt="premier voiture d'occasion">
-        <div id="precedant">></div>
-        <div id="suivant"><</div>
+        <img src="./image/voiture1.png" alt="premier voiture d'occasion" id="slide">
+        <div id="suivant" onclick="ChangeSlide(1 )">></div>
+        <div id="precedant" onclick="ChangeSlide(-1)"><</div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>

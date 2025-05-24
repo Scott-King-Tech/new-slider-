@@ -28,10 +28,10 @@ img{
     transition: opacity 0.3s ease;
 }
 #suivant{
-    left: 0px;
+    right: 0px;
 }
 #precedant{
-    right: 0px;
+    left: 0px; 
 }
 
 #slider:hover #precedant , #slider:hover #suivant{
