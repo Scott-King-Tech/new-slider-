@@ -1,4 +1,4 @@
-const slide = ["voiture1.png", "voiture2.png", "voiture3.png"]
+const slide = ["voiture1.jpg", "voiture2.jpg", "voiture3.jpg", "voiture4.jpg"]
 
 let numero = 0;
 
@@ -8,7 +8,7 @@ function ChangeSlide(sens){
     if(numero > slide.length - 1)
         numero = 0;
     else if (numero < 0)
-        numero = slide.length - 1;
+        numero = slide.length - 1 ;
    document.getElementById("slide").src= "image/" + slide[numero];
 }
 

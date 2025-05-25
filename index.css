@@ -37,3 +37,31 @@ img{
 #slider:hover #precedant , #slider:hover #suivant{
     opacity: 1;
 }
+nav{
+    background-color: #f7f7f7;
+    height: 50px;
+    padding-top: 0.2px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+    margin-right: 60px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{
+    margin-bottom: 5%;
+}
+
+.active {
+    border-bottom: 2px solid black; 
+    font-weight: bold;
+  }
+  
